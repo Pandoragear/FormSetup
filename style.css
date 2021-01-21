@@ -4,5 +4,12 @@ body {
 
 .container { 
      background-color: #FFFFFF;
-    border: red solid;
+    border: black solid;
+    display: flex;
+align-content: center;
+align-items: center;
+}
+
+.userInput{
+    background-color: turquoise;
 }
