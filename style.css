@@ -2,14 +2,69 @@ body {
     background-color: #FF8F68;
 }
 
-.container { 
-     background-color: #FFFFFF;
-    border: black solid;
-    display: flex;
-align-content: center;
-align-items: center;
+.container {
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    margin: 10% 20% 20% 20%;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 50px;
+
 }
 
-.userInput{
-    background-color: turquoise;
+#x{
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.topInfo {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    font-size: 20px;
+    /* border: red solid; */
+}
+
+
+.userInput {
+    border: 0;
+    border-radius: 3%;
+    width: 80%;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+
+}
+
+::placeholder {
+    color: gray;
+    background-color: #ddd;
+    height: 130px;
+    border: 0;
+    padding-left: 10px;
+    padding-top: 5px;
+    
+
+}
+
+/* this is the button  */
+.signUp {
+    border: 0;
+    color: white;
+    background-color: #FF8F68;
+    margin-top: 20px;
+    margin-left: 35%;
+    border-radius: 5%;
+    padding: 2%;
+    padding-right: 20px;
+    padding-left: 20px; 
+
+
+}
+
+.bottomText {
+    color: darkgrey;
+    font-size: xx-small;
+    margin-top: 25px;
+    margin-left: 40%;
+
 }
