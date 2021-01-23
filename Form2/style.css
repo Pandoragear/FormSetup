@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+.container{
+border: solid red;
+display: flex;
+height: 400px;
+width: 700px;
+border-radius: 4px;
+
+
+
+}
+
+.leftSide{
+border: solid yellow;
+}
+
+.rightSide{
+    /* display: flex; */
+    background-color: #503E9D;
+    border: solid #503E9D;
+
+}
+
+img{
+display: block;
+max-width: 100%;
+max-height: 100%;
+}
