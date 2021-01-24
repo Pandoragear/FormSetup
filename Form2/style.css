@@ -48,7 +48,30 @@ body {
 }
 #password{
     width: 185px;
+    padding-bottom: 5px;
 
+}
+
+#signUp{
+    width: 193px;
+    margin-top: 25px;
+    background-color: #503E9D;
+    color: #EDEBF5;
+    border: 0px;
+    padding: 4px;
+    font-size: 13px;
+
+}
+
+#signIn{
+    width: 193px;
+    margin-top: 5px;
+    border-radius: 3px;
+    border-color: #cacace;
+    padding: 4px;
+    color: #cacace;
+    background-color: #FFFFFF;
+    font-size: 13px;
 }
 
 
