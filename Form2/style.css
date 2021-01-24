@@ -26,32 +26,38 @@ body {
 }
 
 #logo {
-    color: #503E9D;
-    padding-top: 40px;
+    max-width: 25%;
+    margin-top: 13px;
+    position: relative;
+    right: 15px;
 }
 
 #start {
     color: #503E9D;
     padding-top: 15px;
+    font-size: 13px;
 }
 
 #title {
     font-weight: bolder;
     margin-top: -20px;
-    margin-bottom: -5px;
+    margin-bottom: -8px;
+    font-size: 14px;
+    font-weight: bold;
 
 }
 
 #email {
     width: 185px;
-    padding-bottom: 5px;
-    border-color: lightgray;
+    padding-bottom: 4px;
+    margin-bottom: -4px;
+    
 }
 
 .fas.fa-at {
     position: relative;
     left: 165px;
-    bottom: 22px;
+    bottom: 23px;
     font-size: 12px;
     color: #cacace;
 }
@@ -74,7 +80,7 @@ body {
 
 #signUp {
     width: 193px;
-    height: 25px;
+    height: 26px;
     margin-top: 5px;
     background-color: #503E9D;
     color: #EDEBF5;
@@ -87,14 +93,14 @@ body {
 
 #signIn {
     width: 193px;
-    /* margin-top: 5px; */
     border-radius: 3px;
     border-color: #cacace;
     padding: 4px;
     color: #cacace;
     background-color: #FFFFFF;
-    /* background-color: black; */
-    font-size: 10px;-
+    font-size: 10px;
+    height: 28px;
+    border-style: groove;
 }
 
 #GIcon {
@@ -102,7 +108,7 @@ body {
     /* max-height: %; */
     margin-left: 30px;
     position: relative;
-    top: 16px;
+    top: 19px;
     left: 5px;
 }
 
@@ -115,12 +121,12 @@ body {
 }
 
 .logIn{
-    color: red;
+    color: #cacace;
     width: 187px;
-    font-size: 12px;
+    font-size: 10px;
     margin-left: 30px;
     position: relative;
-    bottom: 20px;
+    bottom: 15px;
 }
 
 .rightSide {
