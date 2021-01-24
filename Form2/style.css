@@ -51,7 +51,7 @@ body {
     width: 185px;
     padding-bottom: 4px;
     margin-bottom: -4px;
-    
+
 }
 
 .fas.fa-at {
@@ -65,7 +65,7 @@ body {
 .far.fa-eye{
     position: relative;
     font-size: 12px;
-    right: 30px;
+    right: 33px;
     bottom: 15px;
     color: #cacace
 }
