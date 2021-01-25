@@ -18,10 +18,11 @@ margin-top: 80px; */
 }
 
 .leftSide {
-    display: flex;
+    /* display: flex; */
     /* border: green solid; */
     flex: 1 100%;
     background-color: #FFFF;
+    padding-left: 15px;
 }
 
 .rightSide {
