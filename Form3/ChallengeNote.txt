@@ -1,0 +1,9 @@
+Change the text to cyber truck title and info.
+
+make sure to use google fonts
+
+make sure to use css grid and flexbox
+
+make sure there is consistency (same units for font sizes, margins, paddings, color namings, etc.)
+
+talk out loud before you code. Explain what you're going to do before you do it. (practice for the interview!)
