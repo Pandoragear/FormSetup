@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Tesla;
+    src: url(Fonts/TESLA.ttf);
+}
+
 body {
     background-color: #EEEEEE;
     display: flex;
@@ -24,6 +29,13 @@ margin-top: 80px; */
     background-color: #FFFF;
     padding-left: 15px;
 }
+
+#teslaLogo{
+    font-family: Tesla;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
 
 .rightSide {
     display: flex;
