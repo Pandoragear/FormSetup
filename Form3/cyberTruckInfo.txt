@@ -1,0 +1,6 @@
+Name: CyberTruck 
+Price: $40,000 
+Speed: 0-60 
+        < 6.5 Second
+Range:  250 Mile
+top speed: 140
