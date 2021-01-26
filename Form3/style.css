@@ -34,6 +34,7 @@ margin-top: 80px; */
     font-family: Tesla;
     font-size: 18px;
     margin-top: 18px;
+    position: relative;
 
 }
 
@@ -64,19 +65,18 @@ margin-top: 80px; */
 
 .rightSide {
     display: flex;
-    border: blue solid;
+    /* border: blue solid; */
 
 }
 
 #rightTeslaLogo{
-    color: red;
-    border: purple solid;
-    display: flex;
-    justify-content: center;
+    color: rgb(99, 95, 95);
     font-family: Tesla;
     font-size: larger;
     position: relative;
-    margin-right: 180px;
+    margin-top: -370px;
+    margin-left: 180px;
+    
 
 }
 
