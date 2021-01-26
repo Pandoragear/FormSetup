@@ -13,24 +13,19 @@ body {
 }
 
 .container {
-    /* border: red solid; */
     width: 850px;
     height: 400px;
-    /* margin-left: 120px;
-margin-top: 80px; */
     display: flex;
 
 }
 
 .leftSide {
-    /* display: flex; */
-    /* border: green solid; */
     flex: 1 100%;
     background-color: #FFFF;
     padding-left: 15px;
 }
 
-#teslaLogo{
+#teslaLogo {
     font-family: Tesla;
     font-size: 18px;
     margin-top: 18px;
@@ -38,23 +33,23 @@ margin-top: 80px; */
 
 }
 
-.auto{
+.auto {
     margin-top: 50px;
     margin-left: 18px;
 }
 
-.mainTitle{
+.mainTitle {
     margin-left: 18px;
     margin-top: -10px;
 }
 
-.paragraph{
+.paragraph {
     margin-left: 18px;
     margin-right: 50px;
     letter-spacing: 1px;
 }
 
-.nextPage{
+.nextPage {
     margin-left: 290px;
     margin-top: 45px;
     font-size: 12px;
@@ -65,18 +60,17 @@ margin-top: 80px; */
 
 .rightSide {
     display: flex;
-    /* border: blue solid; */
 
 }
 
-#rightTeslaLogo{
-    color: rgb(99, 95, 95);
+#rightTeslaLogo {
+    color: #635F5F;
     font-family: Tesla;
     font-size: larger;
     position: relative;
     margin-top: -370px;
     margin-left: 180px;
-    
+
 
 }
 
@@ -84,22 +78,20 @@ img {
     display: block;
     max-width: 100%;
     max-height: 100%;
-    /* border: solid yellow; */
-    /* margin: auto; */
     width: 850px;
     height: 400px;
 }
 
-.info2{
+.info2 {
     word-spacing: 40px;
     color: #DCDCDC;
-    margin-top: 250px; 
+    margin-top: 250px;
 
-    display:flex;
-    justify-content: center;    
+    display: flex;
+    justify-content: center;
 }
 
-.bottomInfo{
+.bottomInfo {
     font-family: 'Roboto', sans-serif;
     word-spacing: 35px;
     color: #A0A0A0;
