@@ -1,14 +1,39 @@
-body{ 
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background-color: #CF7598;
-    
+
 }
 
-.container{
+.container {
     border: solid red;
     height: 650px;
     width: 800px;
+}
+
+.topNavbar {
+    overflow: hidden;
+    background-color: #8F60B0;
+    border-bottom: #ddd solid;
+}
+
+.topNavbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topNavbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topNavbar a.active {
+    background-color: #4CAF50;
+    color: white;
 }
