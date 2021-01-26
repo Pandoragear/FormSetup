@@ -1,0 +1,8 @@
+Design 4 Challenge 
+
+- Navbar + grid card
+- CSS grid 
+
+- can use Flex box or Grid for Navbar
+
+- don't worry about the star, can just add 1 or none
