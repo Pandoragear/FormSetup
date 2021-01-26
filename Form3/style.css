@@ -55,8 +55,8 @@ margin-top: 80px; */
 }
 
 .nextPage{
-    margin-left: 300px;
-    margin-top: 53px;
+    margin-left: 290px;
+    margin-top: 45px;
     font-size: 12px;
     font-weight: bolder;
 
@@ -88,4 +88,25 @@ img {
     /* margin: auto; */
     width: 850px;
     height: 400px;
+}
+
+.info2{
+    word-spacing: 40px;
+    color: #DCDCDC;
+    margin-top: 250px; 
+
+    display:flex;
+    justify-content: center;    
+}
+
+.bottomInfo{
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 35px;
+    color: #A0A0A0;
+    position: relative;
+    margin-top: -15px;
+    margin-left: 70px;
+    font-size: x-small;
+    display: flex;
+    justify-content: center;
 }
