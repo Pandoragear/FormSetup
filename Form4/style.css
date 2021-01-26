@@ -1,3 +1,14 @@
 body{ 
-    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #CF7598;
+    
+}
+
+.container{
+    border: solid red;
+    height: 650px;
+    width: 800px;
 }
