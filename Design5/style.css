@@ -1,3 +1,15 @@
 body{
-    background-color: red;
+    background-color: #ED836D;
+    display: grid;
+    justify-content: center;
+
+
+}
+
+.container{
+    Height: 750px;
+    width: 950px;
+    background-color: #ffffff;
+    display: grid;
+    margin-top: 50px;
 }
