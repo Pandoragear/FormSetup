@@ -13,3 +13,15 @@ body{
     display: grid;
     margin-top: 50px;
 }
+
+.navBar{
+    border: solid purple;
+}
+
+.navLeft{
+    border: red solid;
+}
+
+.navRight{
+    border: green solid;
+}
