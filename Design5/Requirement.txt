@@ -1,0 +1,10 @@
+Requirements:
+
+1.) Must use CSS Grid, but you can use CSS Flexbox for the navbar (if you want).
+
+2.) Try to add an animation of some sort. (google how to do animations with css and just add a simple one, doesn't need to be complex. There is a specific css property for animations)
+
+Notes:
+- pay attention to padding and margins. Try to get them as close to the design as possible.
+- sometimes you can go to codepen to check out how other people designed a thing you're trying to design.
+
