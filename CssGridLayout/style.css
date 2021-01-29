@@ -185,3 +185,16 @@ body {
 
         }
     }
+
+
+    /* Task 4 */
+
+.task-4.container {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.task-4 .item-5 {
+    grid-column-end: span 2;
+}
