@@ -75,11 +75,20 @@ h2{
     color: white;
     display: grid;
     justify-content: center;
+
 }
 
 h4{
     color: white;
     display: grid;
     justify-content: center;
-    border: solid;
+    border: solid red;
+}
+
+.firstCard{
+    display: grid;
+    grid-column: 10 / span 3;
+    grid-row: 10/ span 3;
+    border: solid yellow;
+    margin-top: 150px;
 }
