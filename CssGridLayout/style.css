@@ -26,6 +26,10 @@ body {
     height: 50vh;
 }
 
-.task1.container{
+/* Task 1   */
+.task-1.container{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: auto 1fr auto
     
 }
