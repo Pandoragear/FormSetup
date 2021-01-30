@@ -64,7 +64,7 @@ img {
 
 .centerBox {
     /* border: solid red; */
-    background-color: gray;
+    background-color: #1E2D36;
     opacity: 0.7;
     width: 350px;
     height: 150px;
@@ -86,46 +86,71 @@ h4 {
     display: grid;
     justify-content: center;
     border: solid red;
+    text-align: center;
 }
 
 .lowerCard{
     display: grid;
     /* gap: 24px; */
-    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
     margin-top: 120px;
 }
 
 .firstCard {
     display: grid;
-    border: solid yellow;
     /* margin-top: 150px; */
     /* grid-area: next; */
     justify-content: center;
     align-self: center;
-    grid-column-end: span 1;
+    grid-column-end: span 2;
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-    width: 40%;
+    width: 65%;
     border-radius: 5px;
-    margin-left: 190px;
+    margin-left: 140px;
 }
 
 
 .secondCard{
     display: grid;
-
-    border: solid blue;
     /* margin-top: 150px; */
     /* grid-area: next; */
     justify-content: center;
 
-    
-    grid-column-end: span 1;
+    grid-column-start: span ;
+    grid-column-end: span 2;
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-    width: 40%;
+    width: 65%;
     border-radius: 5px;
 
+}
+
+h3{
+    font-size: 22px;
+    margin-left: 15px;
+    text-align: center;
+    
+}
+
+h5{
+    font-size: 13px;
+    margin-left: 15px;
+    text-align: center;
+    
+}
+
+.purchase{
+    color: red;
+    border: solid #1F201A;
+    border-width: thin;
+    border-radius: 15px;
+    width: 130px;
+    height: 30px;
+    display: grid;
+    align-items: center;
+    font-size: 10px;
+    margin-left: 80px;
 }
