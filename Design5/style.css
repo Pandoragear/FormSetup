@@ -1,25 +1,32 @@
 body {
-    background-color: #ED836D;
     display: grid;
     justify-content: center;
+    animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: #b62b13;
+    }
+
+    100% {
+        background-color: #ED836D;
+    }
 }
 
 .container {
     Height: 750px;
     width: 950px;
     background-color: #F4F8FD;
-    /* display: grid; */
     margin-top: 50px;
 }
 
 .navBar {
-    /* border: solid purple; */
-    /* display: flex; */
     height: 65px;
     background-color: #ffffff;
     padding-top: 5px;
     padding-bottom: 5px;
-    
+
 }
 
 .navLeft {
@@ -43,7 +50,7 @@ body {
     position: relative;
     color: #ffffff;
     font-size: 16px;
-    background-color: orange;
+    background-color: #f4bb0e;
     border-radius: 10px;
     margin-top: -6px;
     display: flex;
@@ -58,9 +65,6 @@ img {
     grid-template-rows: auto;
     max-width: 100%;
     max-height: 100%;
-    /* border: solid red; */
-    /* margin-top: -340px; */
-    /* border: solid; */
 }
 
 .centerBox {
@@ -72,11 +76,10 @@ img {
     margin-top: -250px;
     margin-left: 290px;
     padding-top: 7px
-
 }
 
 h2 {
-    color: white;
+    color: #ffffff;
     display: grid;
     justify-content: center;
     font-family: 'Poppins', sans-serif;
@@ -84,20 +87,20 @@ h2 {
 }
 
 h4 {
-    color: white;
+    color: #ffffff;
     display: grid;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 12px;
-    
+
 }
 
-.showNow{
+.showNow {
     position: relative;
     color: #ffffff;
     font-size: 13px;
-    background-color: orange;
+    background-color: #f4bb0e;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -107,7 +110,7 @@ h4 {
     margin-top: -5px;
 }
 
-.lowerCard{
+.lowerCard {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
     margin-top: 120px;
@@ -127,10 +130,10 @@ h4 {
 }
 
 
-.secondCard{
+.secondCard {
     display: grid;
     justify-content: center;
-    grid-column-start: span ;
+    grid-column-start: span;
     grid-column-end: span 2;
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -140,23 +143,22 @@ h4 {
 
 }
 
-h3{
+h3 {
     font-size: 22px;
     margin-left: 15px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
 
-h5{
+h5 {
     font-size: 13px;
     margin-left: 15px;
     text-align: center;
     margin-top: -5px
-    
 }
 
-.purchase{
-    color: red;
+.purchase {
+    color: #727B91;
     border: solid #1F201A;
     border-width: thin;
     border-radius: 15px;
@@ -166,5 +168,5 @@ h5{
     align-items: center;
     font-size: 10px;
     margin-left: 110px;
-    
+
 }
