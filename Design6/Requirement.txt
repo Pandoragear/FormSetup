@@ -1,0 +1,17 @@
+Requirements:
+
+1. must have CSS GRID somewhere.
+2. must have CSS Flexbox somewhere.
+
+If you want to progress faster, add this:
+
+3. Make it responsive.
+
+As always:
+
+1. Pay attention to spacing (padding and margin)
+2. Make sure your class names and IDs are descriptive and consistent.
+3. Make sure the units and color names (or hex) you use are consistent.
+
+
+https://dribbble.com/shots/14318181-Product-Landing-Concept/attachments/5977721?mode=media
