@@ -4,3 +4,22 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid: 2px;
+}
+
+.column{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    font-size: larger;
+}
+
+.company1{
+    display: grid;
+    grid-column: 1/3;
+    
+}
