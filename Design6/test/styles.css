@@ -1,0 +1,30 @@
+.container  {
+
+    display: grid;
+    /* width: 100vw; */
+    height: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    background-color: tomato;
+    padding: 0 10rem;
+    border: 4px solid black;
+}
+
+.nav {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: cornflowerblue;
+    height: 80px;
+    border: 1px solid white;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+    background-color: darkgreen;
+    width: 100%;
+    height: 500px;
+    grid-gap: 700px 800px;
+}

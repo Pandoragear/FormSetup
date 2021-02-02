@@ -1,0 +1,34 @@
+.container{
+    background-color: tomato;
+    height: 100%;
+    width: 100%;
+    border: 3px solid black;
+    display: grid;
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    background-color: thistle;
+}
+
+.middle{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.last{
+    display: grid; 
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns:  repeat(2, 1fr);
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border: 2px solid yellow
+}
