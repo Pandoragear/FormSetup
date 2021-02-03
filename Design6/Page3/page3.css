@@ -1,27 +1,59 @@
 body{
-    background-color: thistle;
     padding: 100px;
 }
 .container{
     display: grid; 
     grid-template-columns: 1fr 1fr;
 border: solid 2px red;
+grid-gap: 40px;
 
 }
 
 .heading{
     display: grid;
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat 1fr;
+    font-size:larger
+}
+
+h1{
+    display: grid;
+    align-items: flex-end;
 }
 
 .middle{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    min
+    font-size: xx-large;
+    align-items: center;
+}
+    
+del{
+    font-size: 14px;
+    color: #0706065b;
+    font-weight: 400px;
+}
+
+.text{
+    display: grid;
+    grid-auto-columns: auto;
+    align-items: center;
+
 }
 
 
-
 .right{ 
-    background-color: #b5e276a9;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+
+}
+
+button{
+    font-size: larger;
+
+   background-color: #074607;
+   color: #ffffff;
+   height: 70px;
+   width: 180px;
 }
