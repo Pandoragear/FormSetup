@@ -1,3 +1,27 @@
 body{
     background-color: thistle;
+    padding: 100px;
+}
+.container{
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+border: solid 2px red;
+
+}
+
+.heading{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.middle{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min
+}
+
+
+
+.right{ 
+    background-color: #b5e276a9;
 }
