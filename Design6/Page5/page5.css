@@ -1,4 +1,4 @@
-.container{
+.container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 80% 20%;
@@ -6,7 +6,7 @@
     padding: 100px;
 }
 
-.right{
+.right {
     display: grid;
     position: relative;
     justify-content: center;
@@ -14,18 +14,18 @@
     margin-top: 60px;
 }
 
-h1{
+h1 {
     display: grid;
     align-items: flex-end;
     font-size: 35px;
 }
 
-h4{
+h4 {
     font-size: 20px;
 
 }
 
-button{
+button {
     font-size: larger;
 
     background-color: #2c462c;
