@@ -9,10 +9,6 @@
 
 }
 
-.navLeft{
-    display: grid;
-
-}
 
 .navLeft > h1 {
     display: grid;
@@ -23,43 +19,47 @@
 .navCenter{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-
     align-self: center;
 }
 
+
 .navRight{
     display: grid;
-    justify-content: center;
+    justify-content: left;
     align-self: center;
 }
 
 .footer{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 100%;
+    grid-template-columns: 1.8fr 0.7fr;
     height: 500px;
-    grid-gap: 400px;
 }
 
-.bottom > .pan{
+.pan{
     display: grid;
     align-self: center;
-    font-size: 20px;
-
+    font-size: 40px;
 
 }
 
-.bottom > .lorem{
+.lorem{
     display: grid;
+    padding-bottom: 30px;
+    font-size: larger;
+    align-items: center;
 
 }
 
-.bottom > .buyNow{
+button{
     display: grid; 
-
+    height: 40px;
+    width: 130px;
+    align-items: center;
+    font-size: larger;
+    
 }
 
 .watch{
     display: grid;
-
+    grid-column: 2/3;
 }
