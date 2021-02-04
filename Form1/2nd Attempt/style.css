@@ -68,3 +68,33 @@ body {
     margin-left: 40%;
 
 }
+
+/* Media Queries  */
+
+/* @media tv and (min-width: 1200px){
+
+} */
+
+@media screen and (max-width: 800px) {
+    body{
+        background-color: #585555c7;
+    }
+
+    .topInfo > h2{
+        font-size: 30px;
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    #x{
+        margin-left: -1px;
+    }
+
+    .signUp{
+        background-color: #131313c7;
+        margin-right: 30px;
+        margin-top: -20px;
+    }
+
+
+}

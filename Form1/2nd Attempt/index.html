@@ -16,19 +16,32 @@
             <h3 id="x"> x </h3>
         </div>
 
-        <div >
+        <div class="content">
             <input class="userInput" type="text" placeholder="Name">
             <input class="userInput" type="Email" placeholder="Email">
             <input class="userInput" type="password" placeholder="Password">
         </div>
 
         <div>
-            <button class="signUp">Create Account</button>
+            <button onclick="myFunction()" class="signUp">Create Account</button>
         </div> 
-        <div class= "bottomText">
+
+        <div onclick="access()" class= "bottomText">
             <h4> Already have an account? </h4> 
         </div> 
     </div>
+
+
+    <script> 
+    function myFunction() {
+        alert("Permission Deny!!");
+    }
+
+    function access(){
+        alert("You already have an account!")
+    }
+    </script> 
+    
 </body>
 
 </html>
