@@ -1,0 +1,19 @@
+body {
+    background-color: #86bfc6;
+}
+
+.container{ 
+    display: grid;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    position: center;
+    background-color: #e5e5e5;
+    height: 600px;
+    width: 800px;
+}
+
+button{
+    background-color: #86bfc6;
+    color: #ffffff;
+}
