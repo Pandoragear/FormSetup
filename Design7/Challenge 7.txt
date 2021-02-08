@@ -1,0 +1,16 @@
+Next project:
+
+This next project will test if you really understood it and not just go through the tutorials. This next project won't text you on for loops, we can do that next time.
+
+Here's the project.
+
+Create a simple form.
+
+Requirements:
+
+1.	The user enters in some text into the input field.
+2.	When the user clicks the button, whatever the user entered, shows up at the bottom.
+3.	After the user has entered the text and hit the button, the input field should go back to being empty.
+4.	If the user tries to hit submit without any text, an alert should pop up and say ‘Please enter some text”
+
+Just like in a real take-home project, if you don't understand the requirements, email back and ask for clarification! This is very important because some take-home project purposefully leave details out to see if you ask.
