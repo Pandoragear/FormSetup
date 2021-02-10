@@ -1,20 +1,39 @@
 body {
     background-color: #86bfc6;
     font-family: 'Open Sans', sans-serif;
+    display: grid;
+    justify-content: center;
+    
 }
 
 .container{ 
     display: grid;
-    justify-content: center;
-    align-self: center;
-    align-items: center;
-    position: center;
+    grid-template-rows: repeat(4, 1fr);
     background-color: #e5e5e5;
-    height: 600px;
-    width: 800px;
+    height: 500px;
+    width: 600px;
+}
+
+h1{
+    display: grid;
+    align-items: flex-end;
+    align-self: flex-end;
+    justify-self: end;
+}
+
+input{
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+
 }
 
 button{
+    display: grid;
+    justify-self: center;
     background-color: #86bfc6;
     color: #ffffff;
+    height: 80px;
+    width: 80px;
+    border-radius: 0;
 }
