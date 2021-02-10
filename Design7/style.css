@@ -15,9 +15,9 @@ body {
 }
 
 h2{
-    display: grid;
-    align-self: center;
     text-align: center;
+    margin-top: 50px;
+
 }
 
 input{
@@ -26,6 +26,7 @@ input{
     height: 60px;
     margin-left: 20px;
     margin-right: 20px;
+    font-size: 25px;
 
 }
 
@@ -43,4 +44,10 @@ button{
 h3{
     display: grid;
     justify-content: center;
+}
+
+p{
+    text-align: center;
+    font-size: 40px;
+    color: #98b6cb
 }
