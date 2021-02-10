@@ -14,14 +14,15 @@ body {
     width: 600px;
 }
 
-h1{
+h2{
     display: grid;
-    align-items: flex-end;
-    align-self: flex-end;
-    justify-self: end;
+    align-self: center;
+    text-align: center;
 }
 
 input{
+    display: grid;
+    align-self: center;
     height: 60px;
     margin-left: 20px;
     margin-right: 20px;
@@ -29,11 +30,17 @@ input{
 }
 
 button{
-    display: grid;
-    justify-self: center;
-    background-color: #86bfc6;
+
+    background-color: #5aa3e7;
     color: #ffffff;
     height: 80px;
-    width: 80px;
-    border-radius: 0;
+    width: 150px;
+    border-radius: 4px;
+    text-align: center;
+    margin: auto;
+}
+
+h3{
+    display: grid;
+    justify-content: center;
 }
