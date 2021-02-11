@@ -35,11 +35,12 @@ button{
 
     background-color: #5aa3e7;
     color: #ffffff;
-    height: 80px;
+    height: 70px;
     width: 150px;
     border-radius: 4px;
     text-align: center;
     margin: auto;
+    font-size: 13px;
 }
 
 h3{
