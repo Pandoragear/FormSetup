@@ -5,8 +5,7 @@
 
 
 function showInput() {
-
-    // This create a condition if value is empty then show alert
+  // This create a condition if value is empty then show alert
   if (document.forms["main"].name.value === "") {
     alert("Please enter some text!!");
 
@@ -19,7 +18,10 @@ function showInput() {
     "name"
   ).value;
 
-  // This clear the text field 
+  // This clear the text field
   document.getElementById("name").value = "";
 
+  // placing the cursor back to the text field after submit
+  document.getElementById("name").focus();
 }
+
