@@ -29,12 +29,25 @@ document.querySelector("p").addEventListener("click", (e) => {
 
 function add() {
   let li = document.createElement("p");
-  let input_value = document.main.task.value;
+  let input_value = document.main.name.value;
   let input_text = document.createTextNode(input_value);
+  
+  document.main.reset();
+  
 
   li.appendChild(input_text);
   document.querySelector("p").appendChild(li);
   document.main.task.value = "";
 
   createCloseButton(li);
+}
+
+
+// This function create an alert to show if value = Null 
+function add() {
+    if (document.forms['main'].name.value===""){
+        alert('empty');
+        return false;
+    }
+    return true;
 }
