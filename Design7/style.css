@@ -54,14 +54,22 @@ button:hover {
     border-color: #5aa3e7
   }
 
+.message{
+    margin-top: -20px;
+}
+
 h3{
     display: grid;
     justify-content: center;
-    font-size: 25px;
+    font-size: 28px;
+    /* padding-bottom: 10px; */
+
 }
 
 p{
     text-align: center;
-    font-size: 40px;
-    color: #98b6cb
+    font-size: 32px;
+    color: #98b6cb;
+    margin-top: -10px;
+    padding-bottom: 15px;
 }
