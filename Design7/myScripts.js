@@ -10,14 +10,16 @@
 //     });
 // }
 
-
 function showInput() {
-    document.getElementById('msg').innerHTML = document.getElementById("name").value;
 
-        if (document.forms['main'].name.value===""){
-        alert('Please enter a message!');
-        return false;
-    }
-    return true;
+  if (document.forms["main"].name.value === "") {
+    alert("Please enter some text!!");
+  }
+
+  document.getElementById("msg").innerHTML = document.getElementById(
+    "name"
+  ).value;
+
+  document.getElementById("name").value = "";
 
 }
