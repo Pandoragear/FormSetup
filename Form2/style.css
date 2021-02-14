@@ -8,7 +8,6 @@ body {
 }
 
 .container {
-
     display: flex;
     height: 400px;
     width: 700px;
@@ -105,7 +104,6 @@ body {
 
 #GIcon {
     max-width: 5.5%;
-    /* max-height: %; */
     margin-left: 30px;
     position: relative;
     top: 19px;
@@ -130,7 +128,6 @@ body {
 }
 
 .rightSide {
-    /* display: flex; */
     background-color: #503E9D;
     border: solid #503E9D;
     border-bottom-right-radius: 25px;
